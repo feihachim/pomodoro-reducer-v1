@@ -1,0 +1,18 @@
+.element{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.element input{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    font-size: 1.2rem;
+}
+
+.element span{
+    display:flex;
+    column-gap: 5px;
+}
