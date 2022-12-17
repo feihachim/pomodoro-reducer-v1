@@ -7,7 +7,7 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: mediumseagreen;
+  background-color: green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,4 +26,8 @@
   display: flex;
   justify-content: space-between;
   column-gap: 50px;
+}
+
+input{
+  cursor:pointer;
 }

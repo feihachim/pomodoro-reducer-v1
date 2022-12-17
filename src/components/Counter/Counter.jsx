@@ -22,12 +22,14 @@ export default function Counter({ category }) {
             incrementElement.current.style.cursor = 'default';
             decrementElement.current.disabled = true;
             decrementElement.current.style.cursor = 'default';
-        } else {
+        }
+
+        return (() => {
             incrementElement.current.disabled = false;
             incrementElement.current.style.cursor = 'pointer';
             decrementElement.current.disabled = false;
             decrementElement.current.style.cursor = 'pointer';
-        }
+        });
     }, [state.playStatus]);
 
     return (
