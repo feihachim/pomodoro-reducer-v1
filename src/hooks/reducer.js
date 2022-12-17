@@ -1,15 +1,5 @@
 import pomodoroModule from '../utils/pomodoroModule';
 
-const initialState = {
-    sessionLabel: 'Session',
-    sessionLength: 25,
-    breakLabel: 'Break',
-    breakLength: 5,
-    timerLabel: 'Session',
-    timerLength: 1500,
-    playStatus: false,
-};
-
 const pomodoroReducer = (state, action) => {
     switch (action.type) {
     case 'INCREMENT_SESSION':
@@ -33,4 +23,4 @@ const pomodoroReducer = (state, action) => {
     }
 };
 
-export { initialState, pomodoroReducer };
+export default pomodoroReducer;

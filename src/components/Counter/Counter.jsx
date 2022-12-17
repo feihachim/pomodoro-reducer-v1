@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { StateContext, DispatchContext } from '../../hooks/contexts';
+import { StateContext, DispatchContext } from '../../hooks';
 import './Counter.css';
 
 export default function Counter({ category }) {

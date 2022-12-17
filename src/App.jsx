@@ -1,6 +1,10 @@
 import { useReducer } from 'react';
-import { StateContext, DispatchContext } from './hooks/contexts';
-import { initialState, pomodoroReducer } from './hooks/reducer';
+import {
+    StateContext,
+    DispatchContext,
+    initialState,
+    pomodoroReducer,
+} from './hooks';
 import { Counter, Timer } from './components';
 import './App.css';
 

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 import { useContext, useEffect, useRef } from 'react';
-import { StateContext, DispatchContext } from '../../hooks/contexts';
+import { StateContext, DispatchContext } from '../../hooks';
 import { displayTime } from '../../utils/helper';
 import './Timer.css';
 import PlayIcon from '../../assets/images/play_icon.png';
